@@ -61,16 +61,17 @@ img,div#tela{
     width: 60px;
     height: 60px;
     border-radius: 70px;
+    padding: 20px;
 
 }
 nav > a{
     color: white;
-    padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
     margin: 30px;
+    
 }
 section.msg{
     width: 600px;
@@ -89,3 +90,14 @@ footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
+
+header{
+    width: 100vw;
+    
+
+}
+nav{
+    
+}
+    
+
