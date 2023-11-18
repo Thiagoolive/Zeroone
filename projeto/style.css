@@ -1,11 +1,13 @@
 @charset "UFT-8";
 
+
+*{
+
+}
+
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-image: linear-gradient(to right,rgb(20, 19, 19), rgb(32, 1, 1));
-    margin: auto;
-    
-
 
 
 }
@@ -16,6 +18,7 @@ h1{
     font-size: 2.5em;
     text-align: center;
     background-color: darkred;
+    
     
 }
 
@@ -28,28 +31,34 @@ div#js{
 div#tela{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
-    padding: 20px;
     
 }
 main{
-    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    width: 85vw;
+    margin: auto;
+   
+
 
 }
 
 section#img02{
-    background-image: url('imagens/pexels-kyle-loftus-3379934.jpg');
+    background-image: url('imagens/pexels-jessica-lewis-593324.jpg');
     background-position: right center;
     background-size: cover;
-    width: 100vw;
     height: 500px;
+    width: 90vw;
+    position: center, center;
 }
 
 section#img01{
     background-image: url('imagens/pexels-marek-339379.jpg');
     background-position: right center;
     background-size: cover;
-    width: 100vw;
     height: 500px;
+    width: 90vw;
+    position: center center;
 }
 section.img{
     background-color: rgba(27, 27, 27, 0.788);
@@ -57,13 +66,8 @@ section.img{
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.733) ;
     background-attachment: fixed;
 }
-img,div#tela{
-    width: 60px;
-    height: 60px;
-    border-radius: 70px;
-    padding: 20px;
 
-}
+
 nav > a{
     color: white;
     border-radius: 5px;
@@ -74,30 +78,43 @@ nav > a{
     
 }
 section.msg{
-    width: 600px;
     color: rgba(255, 255, 255, 0.863);
     margin: auto;
+}
+
+
+main p{
     text-align: justify;
+    line-height: 2em;
+
+}
+
+
+nav > a > img{
+    width: 30px;
+    height: 30px;
+    border-radius: 70px;
+    padding: 5px;
+    margin: auto;
+    
+
+}
+h2{
+    padding: 10px;
+    background-color: rgb(51, 19, 19);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer{
-    background-color: wheat;
-    color: brown;
-    height: 70px;
-    width: 100vw;
-    margin: 20px;
-    padding: 20px;
+    background-color: beige;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    padding: 20px;
+    margin: 20px;
+}
+div#u{
+ po
 }
 
-header{
-    width: 100vw;
-    
-
-}
-nav{
-    
-}
     
 
